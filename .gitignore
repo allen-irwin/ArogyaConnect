@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables containing private keys
+.env
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ADK state and sessions
+.adk/
+*.db
+
+# Local IDE/editors configurations
+.vscode/
+.idea/
